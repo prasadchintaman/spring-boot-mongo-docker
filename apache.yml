@@ -1,6 +1,6 @@
 ---
 - name: Let's copy our executable script to remote location, execute script and get result back.
-  remote_user: ubuntu
+  remote_user: devops
   hosts: webservers
   tasks:
      - name: Transfer executable script script
